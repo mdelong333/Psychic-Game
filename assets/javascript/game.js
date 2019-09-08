@@ -26,12 +26,12 @@ document.onkeyup = function(event) {
 
     //Checks players guess with the computers choice, if they are the same wins increase by 1 and game will reset, otherwise remaining guess decreases by 1
     if (userGuess === compChoice) {
-        wins++;
+        wins++; remainingGuess = 9; previousGuess = 0;
     } else {
         remainingGuess--;
         //If remaining guesses fall to 0 losses will increase by one and game will reset
         if (remainingGuess === 0) {
-            losses++;
+            losses++; remainingGuess = 9; previousGuess = 0;
         }
     };
 
