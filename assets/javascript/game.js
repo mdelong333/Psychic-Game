@@ -1,7 +1,7 @@
 
 //Create variables for wins, losses, guessed letters, remaining guesse, and array for computer choices
 
-var compOptions = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",];
+var compOptions = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
 
 var wins = 0;
 var losses = 0;
