@@ -14,7 +14,7 @@
     var previousGuessText = document.getElementById("prev-guess-txt");
 
     //function runs when player presses a key
-    document.onkeydown = function(event) {
+    document.onkeypress = function(event) {
 
         
         //Ties event key to user guess and logs the guess to the console
@@ -32,7 +32,7 @@
         //Checks players guess with the computers choice, if they are the same wins increase by 1 and game will reset, otherwise remaining guess decreases by 1
         if (userGuess) {
             if (userGuess === compChoice) {
-                wins++; remainingGuess = 9; previousGuess = 0;
+                wins++; remainingGuess = 9; previousGuess = [];
             } else {
                 remainingGuess--;
                 //If remaining guesses fall to 0 losses will increase by one and game will reset
