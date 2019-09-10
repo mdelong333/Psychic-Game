@@ -4,7 +4,7 @@ h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 40pt;
     text-align: center;
-    margin: 0 300px 10px 460px;
+    margin: 0 300px 10px 470px;
     width: 30%;
     padding: 10px;
 }
@@ -27,9 +27,10 @@ p {
 }
 
 .text-container {
-    margin: 100px 300px 10px 560px;
+    margin: 100px 300px 10px 500px;
     width: 30%;
     padding: 10px;
+    font-family: 'Inconsolata', monospace;
 }
 
 @media screen and (max-width: 980px) {
@@ -40,7 +41,7 @@ p {
     }
 
     .text-container {
-        margin: 80px 200px 10px 330px;
+        margin: 80px 200px 10px 340px;
         padding: 10px;
     }
 
@@ -57,13 +58,13 @@ p {
     }
 
     .text-container {
-        margin: 100px 100px 10px 265px;
+        margin: 100px 100px 10px 260px;
         padding: 10px;
 
     }
 
     p {
-        font-size: 14pt;
+        font-size: 16pt;
     }
 }
 
@@ -79,7 +80,11 @@ p {
     }
 
     .text-container {
-        margin: 90px 100px 10px 200px; 
+        margin: 80px 100px 10px 210px; 
         padding: 10px;
+    }
+
+    p {
+        font-size: 14pt;
     }
 }
