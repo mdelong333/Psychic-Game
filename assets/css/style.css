@@ -6,7 +6,6 @@ h1 {
     text-align: center;
     margin: 0 300px 10px 460px;
     width: 30%;
-    border: 3px solid green;
     padding: 10px;
 }
 
@@ -23,7 +22,7 @@ body {
 
 p {
     color: rgb(17, 9, 0);
-    font-size: 14pt;
+    font-size: 16pt;
     padding: 10px;
 }
 
@@ -40,6 +39,14 @@ p {
         margin: 0 120px 10px 310px;
     }
 
+    .text-container {
+        margin: 80px 200px 10px 330px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 16pt;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -47,6 +54,16 @@ p {
         font-size: 35pt;
         padding: 10px;
         margin: 0 100px 10px 250px;
+    }
+
+    .text-container {
+        margin: 100px 100px 10px 265px;
+        padding: 10px;
+
+    }
+
+    p {
+        font-size: 14pt;
     }
 }
 
@@ -61,4 +78,8 @@ p {
         padding: 10px;
     }
 
+    .text-container {
+        margin: 90px 100px 10px 200px; 
+        padding: 10px;
+    }
 }
