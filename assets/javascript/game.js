@@ -39,17 +39,14 @@
                 if (remainingGuess === 0) {
                     losses++; remainingGuess = 9; previousGuess = [];
                 }
-
-                
             };
-            //Should display wins, losses, remaining guesses, and previous guesses in the appropriate p element of the html -- not working yet not sure why
+            //Displays wins, losses, remaining guesses, and previous guesses in the appropriate p element of the html
             winsText.textContent = "Wins: " + wins;
             lossesText.textContent = "Losses: " + losses;
             remainingGuessText.textContent = "Remaining guesses: " + remainingGuess;
             previousGuessText.textContent = "Your guesses so far: " + previousGuess;
 
         };
-
 
 
         //Logs wins, losses, and guesses remaining to console.
