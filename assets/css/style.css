@@ -21,7 +21,8 @@ body {
 
 
 p {
-    color: rgb(17, 9, 0);
+    color: gray;
+    text-shadow: 1px 1px black;
     font-size: 16pt;
     padding: 10px;
 }
